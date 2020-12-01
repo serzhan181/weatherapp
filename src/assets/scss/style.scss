@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(116, 209, 221);
+}
+
+@import 'vars';
+@import 'reset';
+@import 'blocks/header.scss';
+@import 'blocks/body.scss';
+@import 'blocks/search.scss';
+@import 'blocks/error.scss';

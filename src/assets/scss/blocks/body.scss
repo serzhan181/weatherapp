@@ -1,0 +1,27 @@
+.main {
+  @include flexCenter();
+
+  height: 60vh;
+}
+
+.weather-img-color {
+  color: white;
+  font-size: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-city {
+  @include flexCenter();
+  font-size: 3rem;
+
+  font-weight: 500;
+}
+
+.weather-temperature {
+  font-size: 1.5rem;
+}
+
+.weather-condition {
+  font-size: 2rem;
+}

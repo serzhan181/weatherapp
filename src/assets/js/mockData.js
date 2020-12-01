@@ -1,0 +1,43 @@
+const mockData = {
+  location: {
+    name: 'Almaty',
+    region: 'Almaty City',
+    country: 'Kazakhstan',
+    lat: 43.25,
+    lon: 76.95,
+    tz_id: 'Asia/Almaty',
+    localtime_epoch: 1606820822,
+    localtime: '2020-12-01 17:07',
+  },
+  current: {
+    last_updated_epoch: 1606819526,
+    last_updated: '2020-12-01 16:45',
+    temp_c: -3.0,
+    temp_f: 26.6,
+    is_day: 1,
+    condition: {
+      text: 'Partly cloudy',
+      icon: '//cdn.weatherapi.com/weather/64x64/day/116.png',
+      code: 1003,
+    },
+    wind_mph: 0.0,
+    wind_kph: 0.0,
+    wind_degree: 316,
+    wind_dir: 'NW',
+    pressure_mb: 1030.0,
+    pressure_in: 30.9,
+    precip_mm: 0.0,
+    precip_in: 0.0,
+    humidity: 68,
+    cloud: 75,
+    feelslike_c: -3.0,
+    feelslike_f: 26.6,
+    vis_km: 10.0,
+    vis_miles: 6.0,
+    uv: 2.0,
+    gust_mph: 2.0,
+    gust_kph: 3.2,
+  },
+}
+
+exports.mockData = mockData

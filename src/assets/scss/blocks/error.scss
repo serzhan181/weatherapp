@@ -1,0 +1,20 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.error-img {
+  font-size: 20rem;
+  color: rgb(181, 62, 62);
+}
+
+.error-text {
+  font-size: 3rem;
+}
+
+.error-r {
+  font-size: 3rem;
+}
